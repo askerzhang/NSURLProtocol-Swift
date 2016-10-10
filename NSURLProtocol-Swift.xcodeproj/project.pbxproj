@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEAD080B1DAAA39000C151E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD080A1DAAA39000C151E7 /* AppDelegate.swift */; };
+		EEAD080D1DAAA39000C151E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD080C1DAAA39000C151E7 /* ViewController.swift */; };
+		EEAD08101DAAA39000C151E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAD080E1DAAA39000C151E7 /* Main.storyboard */; };
+		EEAD08121DAAA39000C151E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAD08111DAAA39000C151E7 /* Assets.xcassets */; };
+		EEAD08151DAAA39000C151E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAD08131DAAA39000C151E7 /* LaunchScreen.storyboard */; };
+		EEAD08221DAAA5AF00C151E7 /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD08211DAAA5AF00C151E7 /* MyProtocol.swift */; };
+		EEAD08271DAAA8F200C151E7 /* SwiftWebViewProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD08261DAAA8F200C151E7 /* SwiftWebViewProgress.swift */; };
+		EEAD08291DAAA8FB00C151E7 /* SwiftWebViewProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD08281DAAA8FB00C151E7 /* SwiftWebViewProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEAD08071DAAA39000C151E7 /* NSURLProtocol-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSURLProtocol-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAD080A1DAAA39000C151E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEAD080C1DAAA39000C151E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEAD080F1DAAA39000C151E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEAD08111DAAA39000C151E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEAD08141DAAA39000C151E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEAD08161DAAA39000C151E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEAD08211DAAA5AF00C151E7 /* MyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
+		EEAD08261DAAA8F200C151E7 /* SwiftWebViewProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftWebViewProgress.swift; path = SwiftWebViewProgress/SwiftWebViewProgress.swift; sourceTree = "<group>"; };
+		EEAD08281DAAA8FB00C151E7 /* SwiftWebViewProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftWebViewProgressView.swift; path = SwiftWebViewProgress/SwiftWebViewProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEAD08041DAAA38F00C151E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEAD07FE1DAAA38F00C151E7 = {
+			isa = PBXGroup;
+			children = (
+				EEAD08091DAAA39000C151E7 /* NSURLProtocol-Swift */,
+				EEAD08081DAAA39000C151E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEAD08081DAAA39000C151E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEAD08071DAAA39000C151E7 /* NSURLProtocol-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEAD08091DAAA39000C151E7 /* NSURLProtocol-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EEAD08251DAAA8DF00C151E7 /* SwiftWebViewProgress */,
+				EEAD08211DAAA5AF00C151E7 /* MyProtocol.swift */,
+				EEAD080A1DAAA39000C151E7 /* AppDelegate.swift */,
+				EEAD080C1DAAA39000C151E7 /* ViewController.swift */,
+				EEAD080E1DAAA39000C151E7 /* Main.storyboard */,
+				EEAD08111DAAA39000C151E7 /* Assets.xcassets */,
+				EEAD08131DAAA39000C151E7 /* LaunchScreen.storyboard */,
+				EEAD08161DAAA39000C151E7 /* Info.plist */,
+			);
+			path = "NSURLProtocol-Swift";
+			sourceTree = "<group>";
+		};
+		EEAD08251DAAA8DF00C151E7 /* SwiftWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				EEAD08261DAAA8F200C151E7 /* SwiftWebViewProgress.swift */,
+				EEAD08281DAAA8FB00C151E7 /* SwiftWebViewProgressView.swift */,
+			);
+			name = SwiftWebViewProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEAD08061DAAA38F00C151E7 /* NSURLProtocol-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAD08191DAAA39000C151E7 /* Build configuration list for PBXNativeTarget "NSURLProtocol-Swift" */;
+			buildPhases = (
+				EEAD08031DAAA38F00C151E7 /* Sources */,
+				EEAD08041DAAA38F00C151E7 /* Frameworks */,
+				EEAD08051DAAA38F00C151E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSURLProtocol-Swift";
+			productName = "NSURLProtocol-Swift";
+			productReference = EEAD08071DAAA39000C151E7 /* NSURLProtocol-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEAD07FF1DAAA38F00C151E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AskerZhang;
+				TargetAttributes = {
+					EEAD08061DAAA38F00C151E7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = EEAD08021DAAA38F00C151E7 /* Build configuration list for PBXProject "NSURLProtocol-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEAD07FE1DAAA38F00C151E7;
+			productRefGroup = EEAD08081DAAA39000C151E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEAD08061DAAA38F00C151E7 /* NSURLProtocol-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEAD08051DAAA38F00C151E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAD08151DAAA39000C151E7 /* LaunchScreen.storyboard in Resources */,
+				EEAD08121DAAA39000C151E7 /* Assets.xcassets in Resources */,
+				EEAD08101DAAA39000C151E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEAD08031DAAA38F00C151E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAD08271DAAA8F200C151E7 /* SwiftWebViewProgress.swift in Sources */,
+				EEAD08221DAAA5AF00C151E7 /* MyProtocol.swift in Sources */,
+				EEAD080D1DAAA39000C151E7 /* ViewController.swift in Sources */,
+				EEAD08291DAAA8FB00C151E7 /* SwiftWebViewProgressView.swift in Sources */,
+				EEAD080B1DAAA39000C151E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEAD080E1DAAA39000C151E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEAD080F1DAAA39000C151E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEAD08131DAAA39000C151E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEAD08141DAAA39000C151E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEAD08171DAAA39000C151E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEAD08181DAAA39000C151E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEAD081A1DAAA39000C151E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "NSURLProtocol-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asker.NSURLProtocol-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEAD081B1DAAA39000C151E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "NSURLProtocol-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asker.NSURLProtocol-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEAD08021DAAA38F00C151E7 /* Build configuration list for PBXProject "NSURLProtocol-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAD08171DAAA39000C151E7 /* Debug */,
+				EEAD08181DAAA39000C151E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAD08191DAAA39000C151E7 /* Build configuration list for PBXNativeTarget "NSURLProtocol-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAD081A1DAAA39000C151E7 /* Debug */,
+				EEAD081B1DAAA39000C151E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEAD07FF1DAAA38F00C151E7 /* Project object */;
+}
